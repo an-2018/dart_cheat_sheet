@@ -1,0 +1,52 @@
+= Dart Cheat Sheet
+:toc: auto
+
+Based on the Dart colab at https://dart.dev/codelabs/dart-cheatsheet[dart.dev]
+
+== Create a console project
+
+.create a small app
+
+[source,bash]
+----
+dart create -t console-full hello_world
+----
+
+.run
+[source,bash]
+----
+cd hello_world
+dart run 
+----
+
+.compile
+[source,bash]
+----
+dart compile exe bin/hello_world.dart
+----
+
+- ```lib``` folder`contains shareble code
+- ```bin``` folder is reserved for command line apps and contains the Dart entry point to execute them(```the main(){...}```)
+
+== Codelab
+
+
+=== String Interpolation
+
+=== Nullable variables
+=== Null-aware opearations
+=== Conditional property
+=== Collection literals
+=== Arrow syntax
+=== Cascades
+=== Getters and setters
+=== Optional positional === parameters
+=== Optional named parameters
+=== Exceptions
+=== Using this in a constructor
+=== Initializer lists
+=== Named constructors
+=== Factory construtors
+=== COnst constructors
+
+== Intro to Dart for Java === Developers
